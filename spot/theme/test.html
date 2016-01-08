@@ -47,7 +47,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="about.html">About</a></li>
 	    <li><a href="Galerie.html">Galerie</a></li>
+	    <li><a href="Blog.html">Blog</a></li>
 	    <li><a href="Contact.html"><i class="fa fa-envelope-o"></i></a></li>
+	    <!--li><a href="Contact.html"><img src="assets/img/eng-french-small.png"></i></a></li-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -65,7 +67,7 @@
 	</div><!-- headerwrap -->
 	<br><br>
 	<div class="row centered col-lg-10 col-lg-offset-1">
-	<h1 id="quote"> "Magical and beautiful quote that change every time you refresh the page" </h1> <h2 id="quote-author">Paul C.</h2>
+	<h1 id="quote">"Magical and beautiful quote that change every time you refresh the page"</h1> <h2 id="quote-author">Paul C.</h2>
 	</div>
 	<div class="container w">
 		<div class="row left-centered col-lg-10 col-lg-offset-1">
@@ -75,6 +77,8 @@
 		</div>
 
 		</div><!-- row -->
+
+
 		<br>
 		<br>
 	</div><!-- container -->
@@ -86,6 +90,7 @@
 					<h4>TRICKS ARE WHAT YOU SEE. MAGIC IS WHAT YOU FEEL.</h4>
 					<p>Magic is not about fooling you, it is about making you witness the impossible.<br>
 						I believe magic can change a life. </p>
+				
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
@@ -96,6 +101,7 @@
 	<div id="f">
 		<div class="container">
 			<div class="row centered">
+				
 				<a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
 
 			</div><!-- row -->
@@ -103,113 +109,7 @@
 	</div><!-- Footer -->
 
 
-	<!-- MODAL FOR CONTACT -->
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="myModalLabel">contact us</h4>
-	      </div>
-	      <div class="modal-body">
-		        <div class="row centered">
-		        	<p>Contactez-moi pour plus de renseignements </p>
-		        	<p>
-		        		paulocaillau@gmail.com<br/>
-						+49 4 176 88 147 147<br/>
-						+33 6 59 51 04 16
-		        	</p>
-		        	<div id="mapwrap">
-		<iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=52.752693,22.791016&amp;spn=67.34552,156.972656&amp;z=2&amp;output=embed"></iframe>
-					</div>
-		        </div>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-danger" data-dismiss="modal">Save & Go</button>
-	      </div>
-	    </div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
-	</div><!-- /.modal -->
-
-
-
-
-	<!-- MODAL FOR ARTIST REGISTRATION-->
-
-        <div class="modal fade" id="register" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="modalTitle">Demander un devis</h4>
-	      </div>
-	      <div class="modal-body">
-		        <div class="row centered">
-
-  <form class="form-horizontal" role="form">
-
-    <fieldset>
-
-       <legend>Information</legend>
-      <div class="form-group">
-        <label class="col-sm-3 control-label">Prénom</label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="your first name">
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="col-sm-3 control-label">Noms</label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" placeholder="your last name">
-        </div>
-      </div>
-      <legend>Evènement</legend>
-
-      <div class="form-group">
-        <label class="col-sm-3 control-label" for="expiry-month">Evènement</label>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-xs-8">
-              <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
-                <option>choisir</option>
-                <option value="01">Gala</option>
-                <option value="02">Marriage</option>
-                <option value="03">Anniversaire enfant</option>
-                <option value="04">Anniversaire adulte</option>
-                <option value="05">Animation caritative</option>
-                <option value="06">Evènement d'entreprise</option>
-                <option value="07">Soirée privée</option>
-                <option value="08">Arbre de Noël</option>
-		<option value="08">Repas de prestige</option>
-                <option value="09">Autre</option>
-              </select>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="col-sm-3 control-label" for="card-holder-name">Remarques</label>
-        <div class="col-sm-8">
-          <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-4 col-sm-9">
-          <button type="button" class="btn btn-success">Demander le devis</button>
-        </div>
-      </div>
-    </fieldset>
-  </form>
-</div>
-		        </div>
-	      </div>
-
-	    </div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
-	</div><!-- /.modal -->
-
-<!-- End of MODAL-->
+	
 
 
     <!-- Bootstrap core JavaScript
@@ -233,8 +133,14 @@
     <script>
       $(function() {
 	  // If you want to add a quote, add an element int the quotes array with ["text...", "author"]
-	  var quotes = [["Un homme qui sait se rendre heureux avec une simple illusion est infiniment plus malin que celui qui se désespère avec la réalité.", "Alphonse Allais"],
-	  ["La vérité ne blesse pas par elle-même. Elle fait mal car elle brise une illusion.", "Olivier Lockert"]];
+	  var quotes = 
+		[["Un homme qui sait se rendre heureux avec une simple illusion est infiniment plus malin que celui qui se désespère avec la réalité.", "Alphonse Allais"],
+	 	["La vérité ne blesse pas par elle-même. Elle fait mal car elle brise une illusion.", "Olivier Lockert"],
+		["Au commencement des temps, la magie et les mots étaient une seule et même chose.", "Sigmund Freud"],
+		["The master has tried more time than the beginner has even tried", "Stephen McCranie"],
+		["Parfois, les gens ne veulent pas entendre la vérité, parce qu'ils ne veulent pas que leurs illusions se détruisent.", "Friedrich Nietzsche"],
+		["Maybe there are times when mystery is more important than knowledge.", "J.J. Abrams"],
+		["La magie ne se trouve pas dans la main du magicien, mais dans l'œil de celui qui regarde.", "Albert Goshman"]];
 	  var quote = drawRandomly(quotes);
 
 	  $("#quote").text(quote[0]);
