@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
     <link rel="stylesheet" href="assets/css/blueimp-gallery.min.css">
 
     <title>MAGIC - Paul Caillau</title>
@@ -49,7 +48,6 @@
 	    <li><a href="Galerie.html">Galerie</a></li>
 	    <li><a href="Blog.html">Blog</a></li>
 	    <li><a href="Contact.html"><i class="fa fa-envelope-o"></i></a></li>
-	    <!--li><a href="Contact.html"><img src="assets/img/eng-french-small.png"></i></a></li-->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -117,18 +115,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/blueimp-gallery.min.js"></script>
-
-    <script>
-      document.getElementById('links').onclick = function (event) {
-	event = event || window.event;
-	var target = event.target || event.srcElement,
-	link = target.src ? target.parentNode : target,
-	options = {index: link, event: event},
-	links = this.getElementsByTagName('a');
-	blueimp.Gallery(links, options);
-      };
-    </script>
 
     <script>
       $(function() {
