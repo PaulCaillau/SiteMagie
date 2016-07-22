@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservez un magicien à Lyon pour tous vos événements. Rendez votre événement inoubliable par une touche de magie. La magie, il n'y a que ça de vrai.">
+    <meta name="author" content="Paul Caillau">
+    <!--link rel="stylesheet" href="assets/css/blueimp-gallery.min.css"-->
+
+    <title>Magicien à Lyon | Magie pour tous</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="resources/js/utils.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="test.html">MAGIC</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">A propos</a></li>
+	    <li><a href="Galerie.html">Galerie</a></li>
+	    <li><a href="Blog.html">Blog</a></li>
+	    <li><a href="Contact.html"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row right">
+				<div class="col-lg-8 col-lg-offset-2">
+				<h2>It is not about Tricks </h2>
+				<h1>It's all about <b>Magic</b></h1>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- headerwrap -->
+	<br><br>
+	<div class="row centered col-lg-8">
+	<h1 id="quote">"Magical and beautiful quote that change every time you refresh the page"</h1> <h2 id="quote-author">Paul C.</h2>
+	</div>
+	<div class="container w">
+	
+		<div class="row justify col-lg-8 col-lg-offset-2">
+			<br><br>
+		<h4>Bienvenue à vous!</h4>
+		<p>Vous êtes un fan de magie? un curieux? vous recherchez LE magicien qui saura faire de votre événement un moment inoubliable? Je vous rassure vous êtes au bon endroit car ce site est fait pour vous. Si vous m'avez déjà rencontré lors d'une de mes prestations vous êtes peut-être en photo dans la galerie (sous votre meilleur profil bien sûr). Si vous ne m'avez jamais vu ce site est l'occasion pour moi de me présenter à vous et de vous donner une première impression. Qui sait vous êtes peut-être curieux d'en savoir plus sur moi ou de me contacter directement? Dans tous les cas, n'hésitez pas à naviguer sur le site comme bon vous semble, vous y trouverez quelquechose d'intéressant j'en suis persuadé. </p>
+		</div>
+	</div></div>
+		</div><!-- row -->
+
+
+		<br>
+		<br>
+	</div><!-- container -->
+
+	<div id="r">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4>TRICKS ARE WHAT YOU SEE. MAGIC IS WHAT YOU FEEL.</h4>
+					<p>Magic is not about fooling you, it is about making you witness the impossible.<br>
+						I believe magic can change a life. </p>
+				
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><! -- r wrap -->
+
+
+	<!-- FOOTER -->
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				
+				<a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
+
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Footer -->
+
+
+	
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function() {
+	  // If you want to add a quote, add an element int the quotes array with ["text...", "author"]
+	  var quotes = 
+		[["Un homme qui sait se rendre heureux avec une simple illusion est infiniment plus malin que celui qui se désespère avec la réalité.", "Alphonse Allais"],
+	 	["La vérité ne blesse pas par elle-même. Elle fait mal car elle brise une illusion.", "Olivier Lockert"],
+		["Au commencement des temps, la magie et les mots étaient une seule et même chose.", "Sigmund Freud"],
+		["The master has tried more time than the beginner has even tried", "Stephen McCranie"],
+		["Parfois, les gens ne veulent pas entendre la vérité, parce qu'ils ne veulent pas que leurs illusions se détruisent.", "Friedrich Nietzsche"],
+		["Maybe there are times when mystery is more important than knowledge.", "J.J. Abrams"],
+		["La magie ne se trouve pas dans la main du magicien, mais dans l'œil de celui qui regarde.", "Albert Goshman"]];
+	  var quote = drawRandomly(quotes);
+
+	  $("#quote").text(quote[0]);
+	  $("#quote-author").text(quote[1]);
+      });
+    </script>
+
+  </body>
+</html>
